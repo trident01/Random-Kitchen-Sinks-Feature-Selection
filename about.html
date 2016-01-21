@@ -1,1 +1,25 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+<div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Nonlinear Regression with Feature Selection</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+                        <li class="active"><a href="https://trident01.github.io/Random-Kitchen-Sinks-Feature-Selection/about"><span class="glyphicon glyphicon-file"></span> About </a></li>
+                        <li ><a href="Random-Kitchen-Sinks-Feature-Selection/howtouse/"><span class="glyphicon glyphicon-check"></span> How to Use </a></li>
+                        <li ><a href="Random-Kitchen-Sinks-Feature-Selection/references/"><span class="glyphicon glyphicon-file"></span> Research Paper </a></li>
+                    </ul>
+                </div>
+            </div>
+</div>
+
+<h3> Welcome </h3>
 Prediction of an outcome variable from multiple observed features is a central question in modern computational statistics with numerous applications, and feature selection for prediction is an important way to facilitate model interpretation and can play a critical role in improving modeling for data with high dimensionality. Here we consider the most general model, with considerations for both non-linearity and non-additivity. Building upon the recently proposed ``Random Kitchen Sinks'' approach to efficient non-linear modeling, and using the Fourier basis to implement both additive and non-additive features, we first present a new application of the full group lasso. Expanding on this for efficiency, we construct models with stochastically generated interaction terms, and use the statistical lasso to regularize parameter estimates. We show how to perform variable selection in a manner that identifies the set of features that together best predict the outcome variable, as well as which specific terms interact and propose a connection to the group lasso approach. The approach is implemented in an R package, and we benchmark it on a variety of simulated and empirical datasets, in areas including robot dynamics, tumor diagnosis, and global health, demonstrating improvements over existing methods for prediction and feature selection.
